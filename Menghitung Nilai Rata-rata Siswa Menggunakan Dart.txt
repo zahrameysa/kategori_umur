@@ -1,0 +1,10 @@
+void main() {
+  var list_nilai_siswa = [80, 90, 85, 70, 95];
+  var sum_nilai = 0;
+  for (int i=0; i < list_nilai_siswa.length; i++) {
+    sum_nilai = sum_nilai + list_nilai_siswa[i];
+  }
+  double avg_nilai = sum_nilai / list_nilai_siswa.length;
+  print("sum_nilai:$sum_nilai");
+  print("avg_nilai:$avg_nilai");
+}
